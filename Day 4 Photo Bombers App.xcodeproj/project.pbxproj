@@ -14,6 +14,8 @@
 		517662511B3135F500C66232 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 517662501B3135F500C66232 /* Images.xcassets */; };
 		517662541B3135F500C66232 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 517662521B3135F500C66232 /* LaunchScreen.xib */; };
 		517662601B3135F500C66232 /* Day_4_Photo_Bombers_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5176625F1B3135F500C66232 /* Day_4_Photo_Bombers_AppTests.m */; };
+		5176626B1B313B6100C66232 /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5176626A1B313B6100C66232 /* PhotoCollectionViewCell.m */; };
+		5176626D1B31467B00C66232 /* IMG_9830.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5176626C1B31467B00C66232 /* IMG_9830.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		517662591B3135F500C66232 /* Day 4 Photo Bombers AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Day 4 Photo Bombers AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5176625E1B3135F500C66232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5176625F1B3135F500C66232 /* Day_4_Photo_Bombers_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day_4_Photo_Bombers_AppTests.m; sourceTree = "<group>"; };
+		517662691B313B6100C66232 /* PhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		5176626A1B313B6100C66232 /* PhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		5176626C1B31467B00C66232 /* IMG_9830.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_9830.jpg; path = ../../../IMG_9830.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,8 @@
 				517662481B3135F500C66232 /* AppDelegate.m */,
 				5176624A1B3135F500C66232 /* ViewController.h */,
 				5176624B1B3135F500C66232 /* ViewController.m */,
+				517662691B313B6100C66232 /* PhotoCollectionViewCell.h */,
+				5176626A1B313B6100C66232 /* PhotoCollectionViewCell.m */,
 				5176624D1B3135F500C66232 /* Main.storyboard */,
 				517662501B3135F500C66232 /* Images.xcassets */,
 				517662521B3135F500C66232 /* LaunchScreen.xib */,
@@ -96,6 +103,7 @@
 		517662431B3135F400C66232 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5176626C1B31467B00C66232 /* IMG_9830.jpg */,
 				517662441B3135F400C66232 /* Info.plist */,
 				517662451B3135F500C66232 /* main.m */,
 			);
@@ -202,6 +210,7 @@
 				5176624F1B3135F500C66232 /* Main.storyboard in Resources */,
 				517662541B3135F500C66232 /* LaunchScreen.xib in Resources */,
 				517662511B3135F500C66232 /* Images.xcassets in Resources */,
+				5176626D1B31467B00C66232 /* IMG_9830.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5176624C1B3135F500C66232 /* ViewController.m in Sources */,
+				5176626B1B313B6100C66232 /* PhotoCollectionViewCell.m in Sources */,
 				517662491B3135F500C66232 /* AppDelegate.m in Sources */,
 				517662461B3135F500C66232 /* main.m in Sources */,
 			);
