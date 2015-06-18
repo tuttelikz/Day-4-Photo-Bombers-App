@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2DBE7892D276E361656C78F0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B6A43EF64CCF206AE03779 /* libPods.a */; };
 		5117B9201B32738F009D6C6F /* PhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5117B91F1B32738F009D6C6F /* PhotoController.m */; };
+		5117B9231B329904009D6C6F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5117B9221B329904009D6C6F /* DetailViewController.m */; };
 		517662461B3135F500C66232 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 517662451B3135F500C66232 /* main.m */; };
 		517662491B3135F500C66232 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 517662481B3135F500C66232 /* AppDelegate.m */; };
 		5176624C1B3135F500C66232 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5176624B1B3135F500C66232 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 		2114D705F2108D565AAC481E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		5117B91E1B32738F009D6C6F /* PhotoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoController.h; sourceTree = "<group>"; };
 		5117B91F1B32738F009D6C6F /* PhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoController.m; sourceTree = "<group>"; };
+		5117B9211B329904009D6C6F /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = ../DetailViewController.h; sourceTree = "<group>"; };
+		5117B9221B329904009D6C6F /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = ../DetailViewController.m; sourceTree = "<group>"; };
 		517662401B3135F400C66232 /* Day 4 Photo Bombers App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day 4 Photo Bombers App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		517662441B3135F400C66232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		517662451B3135F500C66232 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -115,6 +118,8 @@
 		517662421B3135F400C66232 /* Day 4 Photo Bombers App */ = {
 			isa = PBXGroup;
 			children = (
+				5117B9211B329904009D6C6F /* DetailViewController.h */,
+				5117B9221B329904009D6C6F /* DetailViewController.m */,
 				517662471B3135F500C66232 /* AppDelegate.h */,
 				517662481B3135F500C66232 /* AppDelegate.m */,
 				5176624A1B3135F500C66232 /* ViewController.h */,
@@ -299,6 +304,7 @@
 				517662491B3135F500C66232 /* AppDelegate.m in Sources */,
 				517662461B3135F500C66232 /* main.m in Sources */,
 				5117B9201B32738F009D6C6F /* PhotoController.m in Sources */,
+				5117B9231B329904009D6C6F /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
