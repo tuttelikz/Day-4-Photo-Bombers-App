@@ -18,9 +18,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     [self.view setBackgroundColor:[UIColor colorWithWhite:1.0 alpha:0.95]];
     self.imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0.0, 0.0, 320.f, 320.f)];
     [self.view addSubview:self.imageView];
+    
     [PhotoController imageForPhoto:self.photo size:@"standard_resolution" completion:^(UIImage *image) {
         self.imageView.image = image;
     }];
@@ -32,6 +34,7 @@
 -(void) close {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
